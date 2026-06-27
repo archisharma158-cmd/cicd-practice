@@ -14,13 +14,43 @@
         font-family: Arial, Helvetica, sans-serif;
       }
 
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        > body {
-        background: #0f172a;
+      #contact {
+        text-align: center;
+        padding: 60px 20px;
+        background: #111827;
+      }
+
+      #contact h2 {
+        color: #38bdf8;
+        margin-bottom: 15px;
+      }
+
+      #contact p {
+        max-width: 600px;
+        margin: 0 auto 25px;
+        color: #d1d5db;
+      }
+
+      .contact-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .contact-links a {
+        text-decoration: none;
         color: white;
-        line-height: 1.6;
+        background: #1e293b;
+        padding: 12px 20px;
+        border-radius: 8px;
+        transition: 0.3s;
+      }
+
+      .contact-links a:hover {
+        background: #38bdf8;
+        color: #0f172a;
+        transform: translateY(-3px);
       }
 
       header {
@@ -239,25 +269,25 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
-      <h2>Connect With Me</h2>
+      <h2>Get In Touch</h2>
+      <p>
+        I'm always open to connecting, collaborating, and discussing
+        opportunities in AI, Machine Learning, and Software Development.
+      </p>
 
-      <p>Email: archisharma158@gmail.com</p>
-
-      <a href="https://github.com/archisharma158-cmd" target="_blank">
-        <i class="fa-brands fa-github fa-2x"></i>
-      </a>
-
-      <a
-        href=" https://www.linkedin.com/in/archi-sharma-05a3a2371?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-        target="_blank"
-      >
-        <i class="fa-brands fa-linkedin fa-2x"></i>
-      </a>
-
-      <a href="https://www.instagram.com/archisha345/?hl=en" target="_blank">
-        <i class="fa-brands fa-instagram fa-2x"></i>
-      </a>
+      <div class="contact-links">
+        <a href="archisharma158@gmail.com">📧 Email</a>
+        <a href="https://github.com/archisharma158-cmde" target="_blank"
+          >🐙 GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/archi-sharma-05a3a2371?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          target="_blank"
+          >💼 LinkedIn</a
+        >
+      </div>
     </section>
 
     <footer>
